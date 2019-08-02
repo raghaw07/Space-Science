@@ -1,0 +1,85 @@
+.contact_form input {
+	padding: 10px 12px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	width: 100%;
+	font-weight: bold;
+}
+fieldset.contact_address .contact_head {
+	text-align: center;
+	box-sizing: border-box;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding: 10px 12px;
+	background-color: #0c3358;
+	/*background: linear-gradient(to bottom right,red,blue);*/
+	color: black;
+	/*background-color: #333;*/
+	width: 250px;
+}
+fieldset.contact_address .contact_foot {
+	text-align: center;
+	box-sizing: border-box;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top: 1px solid white;
+	padding: 10px;
+	color: black;
+	background-color: #ccc;
+	width: 250px;
+}
+fieldset.contact_form .contact_sub {
+	padding: 10px 12;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	background: transparent;
+	color: #ccc;
+	font-weight: bold;
+	font-size: 18px;
+}
+fieldset.contact_address {
+	display: inline-block;
+	float: right;
+	width: 27%;
+	max-width: 250px;
+	border: 1px solid white;
+	height: 500px;
+}
+fieldset.contact_address img {
+	width: 250px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 20px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	margin-top: 35px;
+}
+fieldset.contact_form .contact_sub:hover {
+	background-color: #0c3358;
+}
+fieldset.contact_form * {
+	box-sizing: border-box;
+}
+fieldset.contact_form {
+	border: 1px solid white;
+	padding: 50px;
+	height: 526px;
+	display: inline-block;
+	width: 700px;
+	box-sizing: border-box;
+}
+fieldset.contact_form input:first-child {
+	margin-top: 30px;
+}
+fieldset.contact_form textarea {
+	padding: 10px 12px;
+	border: none;
+	width: 100%;
+	outline: none;
+	font-size: 18px;
+	font-weight: bold;
+	height: 100px;
+}

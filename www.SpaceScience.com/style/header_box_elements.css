@@ -1,0 +1,26 @@
+div.header_box_elements {
+	width: 300px;
+	display: inline-block;
+	margin: 20px;
+	z-index: -1;
+	height: 150px;
+	background-color: #1a1a1a;
+	padding: 20px 35px;
+} 
+div.header_box_elements:hover {
+	cursor: pointer;
+	opacity: 0.9;
+	transition: 0.3s ease;
+}
+.box_img {
+	width: 110px;
+	float: left;
+	height: 150px;
+}
+.box_text {
+	font-size: 40px;
+	font-weight: bold;
+	color: #ccc;
+	margin-top: 55px;
+	float: right;
+}
